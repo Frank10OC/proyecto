@@ -1,0 +1,6 @@
+﻿"VARIABLE","TIPO_DATO","DESCRIPCION"
+"FECHA","Fecha","Dia de valorización del instrumento."
+"INDICE_NOMINAL","Numérico","Valor nominal del indice soberano nominal."
+"RENT_ANUAL_IN","Numérico","Rendimiento anualizado del indice nominal."
+"INDICE_REAL","Numérico","Valor real del indice soberano VAC."
+"RENT_ANUAL_IR","Numérico","Rendimiento anualizado del indice VAC."
