@@ -1,7 +1,7 @@
 
 import streamlit as st
  
-st.title('Título')
+st.title('Indices Soberanos')
 st.header("Cabecero")
 st.subheader("SubCabecero")
 st.text("Esto es texto")
