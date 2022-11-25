@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import plotly.express as px
 @st.experimental_memo
 def load_data():
     url="https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv"
@@ -8,7 +9,8 @@ st.checkbox("Use container width", value=False, key="use_container_width")
 
 df = load_data()
 st.dataframe(df, use_container_width=st.session_state.use_container_width)
-pie_chart = px.pie(df, #tomo el dataframe
-                   title = 'Total No. of Participants', #El titulo
-                   values = 'EDAD PERSONA ENCUESTADA',##columna
-                   names = 'EPS') ## para verlo por EPS --> Colores
+pie_grf = px.pie(df, 
+                   title = 'Total No. of Participants', 
+                   values = 'EDAD PERSONA ENCUESTADA',
+                   names = 'EPS')
+st.plotly_chart(pie_grf)
