@@ -1,6 +1,5 @@
 import pandas as pd
 import streamlit as st
-import plotly.express as px
 @st.experimental_memo
 def load_data():
     url="https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv"
