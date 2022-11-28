@@ -19,7 +19,7 @@ st.write('Esta es una web donde podrá visualizar casos positvos de covid-19 por
 
 #df = pd.read_csv(dataset_link, header=None) ###Lee el dataframe respectivo
 
-df = pd.read_csv(r'https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv',sep=";", skip_blank_lines=True, date_parser=True)
+df = pd.read_csv('https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv',sep=";", skip_blank_lines=True, date_parser=True)
 
 from pyecharts import options as opts
 from pyecharts.charts import Bar
