@@ -3,26 +3,19 @@ import pandas as pd
 import numpy as np
 
 #Título
-st.title('Casos Positivos de Covid-19 en el Perú')
+st.title('Índices Soberanos 2010 - 2022')
 st.subheader("Miembros del equipo")
 st.markdown("""
-- Isabel Muñoz
-- Enzo Baltazar
-- Joel Huillca
-- Stephany Samanez
-- Lucero de la Cruz
-- Leonardo Plasencia
+- Ninosca
+- Frank
+- Jorch
+- Yasmin
 """)
 st.markdown("""
 ---
-La información contenida en esta página web permite acceder al Dataset “Casos positivos por COVID-19” 
-elaborado por el Ministerio de Salud (MINSA) del Perú. Este ha registrado el monitoreo diario de los 
-casos positivos de covid-19 confirmados con cualquier tipo de prueba hasta el día 23 de mayo de 2022. 
-Cada registro es equivalente a una persona, así como su sexo, edad y distintos niveles de ubicación geográfica: 
-departamento, provincia y distrito. 
-
-Fuente de datos: (https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa)
-
+La información contenida en esta página web permite acceder al Dataset “Índices Soberanos 2010 - 2022” 
+elaborado por el Ministerio de Economía y Finanzas del Perú. 
+Fuente de datos: (https://www.datosabiertos.gob.pe/dataset/%C3%ADndices-soberanos-2010-2022)
 ---
 """)
 def load_data():
