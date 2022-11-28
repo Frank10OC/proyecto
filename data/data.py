@@ -1,5 +1,9 @@
-import pandas as pd
 import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import gdown
+import os
 @st.experimental_memo
 st.title( "Índices Soberanos 2010 - 2022" )
 st.subheader ( "Miembros del equipo" )
