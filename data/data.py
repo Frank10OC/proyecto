@@ -1,16 +1,16 @@
 import pandas as pd
 import streamlit as st
 @st.experimental_memo
-#título
-st . título ( 'Índices Soberanos 2010 - 2022' )
-st . subtítulo ( "Miembros del equipo" )
-st . descuento ( """
+
+st.título ( 'Índices Soberanos 2010 - 2022' )
+st.subtítulo ( "Miembros del equipo" )
+st.descuento ( """
 -Frank Orozco Chupos
 -Ninoska 
 -Yasmin
 -Jorch
 """ )
-st . descuento ( """
+st.descuento ( """
 ---
 La información contenida en esta página web permite acceder al Dataset “Índices Soberanos 2010 - 2022”
 Elaborado por el Ministerio de Economía y Finanzas (MINSA) del Perú. En la cual esta registrado los diferentes 
