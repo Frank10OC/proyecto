@@ -1,10 +1,11 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+url="https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv"
 
 
 #Leer datos
-df_origin = pd.read_csv('data/fifa_23_players.csv')
+df_origin = pd.read_csv(url)
 
 with st.sidebar:
     nationality = st.multiselect('Nacionalidad',sorted(df_origin['Nationality'].unique()))
