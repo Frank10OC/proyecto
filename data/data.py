@@ -22,6 +22,4 @@ def load_data():
     url="https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv"
     return pd.read_csv(url)
 st.checkbox("Use container width", value=False, key="use_container_width")
-c= load_data()
-st.line_chart(c)
 
