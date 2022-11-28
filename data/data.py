@@ -8,8 +8,5 @@ st.checkbox("Use container width", value=False, key="use_container_width")
 
 df = load_data()
 st.dataframe(df, use_container_width=st.session_state.use_container_width)
-pie_grf = px.pie(df, 
-                   title = 'Total No. of Participants', 
-                   values = 'EDAD PERSONA ENCUESTADA',
-                   names = 'EPS')
+pie_grf = px.pie(df, title = 'Total No. of Participants', values = 'EDAD PERSONA ENCUESTADA',names = 'EPS')
 st.plotly_chart(pie_grf)
