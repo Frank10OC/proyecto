@@ -5,15 +5,15 @@ import matplotlib.pyplot as plt
 import gdown
 import os
 @st.experimental_memo
-st.title( "Índices Soberanos 2010 - 2022" )
-st.subheader ( "Miembros del equipo" )
-st.markdown( """
+st.title('Índices Soberanos 2010 - 2022')
+st.subheader ("Miembros del equipo")
+st.markdown("""
 -Frank Orozco Chupos
 -Ninoska 
 -Yasmin
 -Jorch
 """ )
-st.markdown( """
+st.markdown("""
 ---
 La información contenida en esta página web permite acceder al Dataset “Índices Soberanos 2010 - 2022”
 Elaborado por el Ministerio de Economía y Finanzas (MINSA) del Perú. En la cual esta registrado los diferentes 
