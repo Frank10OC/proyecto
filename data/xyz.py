@@ -5,7 +5,7 @@ import gdown
 def download_data():
   url="https://drive.google.com/uc?id=1nZkoRX8956K9lybIb-ARHZ3Jk4QLiDw0"
   output="indices_soberanos.csv"
-  gdown.download(url,output,quiet=False)
+  gdown.download(url, output, quiet=False)
   
 download_data()
 data=pd.read_csv("data.csv",sep=";",nrows=1000000,parse_dates=["INDICE_NOMINAL","INDICE_REAL"])
