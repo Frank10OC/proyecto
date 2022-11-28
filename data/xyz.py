@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
-import gdown
+import gdown as gd
 
 def download_data():
   url="https://drive.google.com/file/d/1nZkoRX8956K9lybIb-ARHZ3Jk4QLiDw0/view?usp=share_link"
   output="data.csv"
-  gdown.download(url,output,quiet=False)
+  gd.download(url,output,quiet=False)
   
 download_data()
 data=pd.read_csv("data.csv",sep=";",nrows=1000000,parse_dates=["INDICE_NOMINAL","INDICE_REAL"])
