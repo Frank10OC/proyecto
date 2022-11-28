@@ -4,22 +4,30 @@ import numpy as np
 import matplotlib.pyplot as plt
 import gdown
 import os
-@st.experimental_memo
-st.title('Índices Soberanos 2010 - 2022')
-st.subheader ("Miembros del equipo")
+
+#Título
+st.title('Casos Positivos de Covid-19 en el Perú')
+st.subheader("Miembros del equipo")
 st.markdown("""
--Frank Orozco Chupos
--Ninoska 
--Yasmin
--Jorch
-""" )
+- Isabel Muñoz
+- Enzo Baltazar
+- Joel Huillca
+- Stephany Samanez
+- Lucero de la Cruz
+- Leonardo Plasencia
+""")
 st.markdown("""
 ---
-La información contenida en esta página web permite acceder al Dataset “Índices Soberanos 2010 - 2022”
-Elaborado por el Ministerio de Economía y Finanzas (MINSA) del Perú. En la cual esta registrado los diferentes 
-Fuente de datos: (https://www.datosabiertos.gob.pe/dataset/%C3%ADndices-soberanos-2010-2022)
+La información contenida en esta página web permite acceder al Dataset “Casos positivos por COVID-19” 
+elaborado por el Ministerio de Salud (MINSA) del Perú. Este ha registrado el monitoreo diario de los 
+casos positivos de covid-19 confirmados con cualquier tipo de prueba hasta el día 23 de mayo de 2022. 
+Cada registro es equivalente a una persona, así como su sexo, edad y distintos niveles de ubicación geográfica: 
+departamento, provincia y distrito. 
+
+Fuente de datos: (https://www.datosabiertos.gob.pe/dataset/casos-positivos-por-covid-19-ministerio-de-salud-minsa)
+
 ---
-""" )
+""")
 def load_data():
     url="https://raw.githubusercontent.com/Frank10OC/proyecto/main/data/indices_soberanos.csv"
     return pd.read_csv(url)
