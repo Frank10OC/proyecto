@@ -4,7 +4,7 @@ import gdown
 
 def download_data():
   url="https://drive.google.com/uc?id=1nZkoRX8956K9lybIb-ARHZ3Jk4QLiDw0"
-  output="data.csv"
+  output="indices_soberanos.csv"
   gdown.download(url,output,quiet=False)
   
 download_data()
